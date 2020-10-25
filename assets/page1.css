@@ -1,0 +1,64 @@
+body {
+	background: #FFF9C6;
+    animation-name: transition;
+    animation-duration: 0.5s;
+}
+
+.menu{
+	position: fixed;
+	width: 14vh;
+	margin-top: 12vh;
+	z-index: 10;
+}
+.homepage{
+	height: 10vh;
+	width: 10vh;
+	background:#faf8f0;
+	margin: 2vh;
+}
+.page1{
+	height: 10vh;
+	width: 10vh;
+	background:#FFF9C6;
+	margin: 2vh;
+}
+.page2{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEDB3;
+	margin: 2vh;
+}
+.page3{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEA8F;
+	margin: 2vh;
+}
+.page4{
+	height: 10vh;
+	width: 10vh;
+	background:#F2DC90;
+	margin: 2vh;
+}
+.page5{
+	height: 10vh;
+	width: 10vh;
+	background:#DEB972;
+	margin: 2vh;
+}
+.photos{
+	position: relative;
+	width: 70vw;
+	padding-left: 18vw;
+	padding-bottom: 8vh;
+	top: 5vh;
+}
+
+@keyframes transition {
+  0% {
+      opacity: 0;
+    }
+  100% {
+      opacity: 1;
+  }
+}

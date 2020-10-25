@@ -1,0 +1,130 @@
+body {
+	background: #FFEDB3;
+    animation-name: transition;
+    animation-duration: 0.5s;
+    overflow: hidden;
+}
+
+.menu{
+	position: fixed;
+	width: 14vh;
+	margin-top: 12vh;
+}
+.homepage{
+	height: 10vh;
+	width: 10vh;
+	background:#faf8f0;
+	margin: 2vh;
+}
+.page1{
+	height: 10vh;
+	width: 10vh;
+	background:#FFF9C6;
+	margin: 2vh;
+}
+.page2{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEDB3;
+	margin: 2vh;
+}
+.page3{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEA8F;
+	margin: 2vh;
+}
+.page4{
+	height: 10vh;
+	width: 10vh;
+	background:#F2DC90;
+	margin: 2vh;
+}
+.page5{
+	height: 10vh;
+	width: 10vh;
+	background:#DEB972;
+	margin: 2vh;
+}
+
+.audio{
+	position: relative;
+	left: 40vw;
+	top: 75vh;
+}
+
+.bubbles{
+	position: relative;
+	top: 100vh;
+	left: 15vh;
+}
+
+.bubble1{
+	display: inline-block;
+	position: relative;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 10vh;
+	background-color: white;
+	opacity: 80%;
+	margin: 1vh;
+	animation: rising 10s;
+	animation-delay: 5s;
+}
+
+.bubble11{
+	display: inline-block;
+	position: relative;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 10vh;
+	background-color: white;
+	opacity: 80%;
+	margin: 1vh;
+	animation: rising 10s;
+	animation-delay: 10s;
+}
+
+.bubble1:hover, .bubble11:hover, .bubble2:hover, .bubble3:hover{
+	animation: paused;
+}
+
+.bubble2{
+	display: inline-block;
+	position: relative;
+	height: 7vh;
+	width: 7vh;
+	border-radius: 10vh;
+	background-color: white;
+	opacity: 100%;
+	margin: 1vh;
+	animation: rising 8s;
+	animation-delay: 3s;
+}
+
+.bubble3{
+	display: inline-block;
+	position: relative;
+	height: 20vh;
+	width: 20vh;
+	border-radius: 14vh;
+	background-color: white;
+	opacity: 70%;
+	margin: 1vh;
+	animation: rising 12s;
+	animation-delay: 6s;
+}
+
+@keyframes rising{
+	0%{top: 0}
+	100%{top: -200vh}
+}
+
+@keyframes transition {
+  0% {
+      opacity: 0;
+    }
+  100% {
+      opacity: 1;
+  }
+}

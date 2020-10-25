@@ -1,0 +1,111 @@
+body {
+	background: #F2DC90;
+    animation-name: transition;
+    animation-duration: 0.5s;
+}
+
+.menu{
+	position: fixed;
+	width: 14vh;
+	margin-top: 12vh;
+}
+.homepage{
+	height: 10vh;
+	width: 10vh;
+	background:#faf8f0;
+	margin: 2vh;
+}
+.page1{
+	height: 10vh;
+	width: 10vh;
+	background:#FFF9C6;
+	margin: 2vh;
+}
+.page2{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEDB3;
+	margin: 2vh;
+}
+.page3{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEA8F;
+	margin: 2vh;
+}
+.page4{
+	height: 10vh;
+	width: 10vh;
+	background:#F2DC90;
+	margin: 2vh;
+}
+.page5{
+	height: 10vh;
+	width: 10vh;
+	background:#DEB972;
+	margin: 2vh;
+}
+.taste1{
+	position: fixed;
+	left: 8vw;
+	top: 30vh;
+	width: 150vh;
+	transform: rotate(170deg);
+	z-index: -2;
+}
+
+.taste1:hover{
+	animation: shake 0.5s;
+	cursor: url('face1.png'), auto;
+}
+
+.taste2{
+	position: fixed;
+	left: 30vw;
+	top: 12vh;
+	width: 80vh;
+	z-index: -1;
+	animation: rotate 20s infinite;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+}
+
+.taste2:hover{
+	animation-play-state: paused;
+	cursor: url('face2.png'), auto;
+}
+
+.taste3{
+	position: fixed;
+	top: -80vh;
+	left: 10vw;
+	width: 200vh;
+	z-index: -3;
+	animation-timing-function: linear;
+	animation: rotate 100s infinite;
+}
+.taste3:hover{
+	animation-play-state: paused;
+	cursor: url('face3.png'), auto;
+}
+
+@keyframes rotate{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes shake{
+	0%{transform: rotate(170deg);}
+	33%{transform: rotate(173deg);}
+	66%{transform: rotate(167deg);}
+	100%{transform: rotate(170deg);}
+}
+
+@keyframes transition {
+  0% {
+      opacity: 0;
+    }
+  100% {
+      opacity: 1;
+  }
+}

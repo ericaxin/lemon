@@ -1,0 +1,66 @@
+body {
+	background: #faf8f0;
+	overflow-x: hidden;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.lemon{
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh
+}
+
+.st5:hover, .st1:hover, .st2:hover, .st3:hover, .st4:hover{
+    fill:#fffffc;
+}
+
+
+.see{
+	position: relative;
+	top: -70vh;
+	left:50vh;
+	font-size: 30px;
+	color: gray;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.hear{
+	position: relative;
+	top: -45vh;
+	left:35vh;
+	font-size: 30px;
+	color: gray;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+.smell{
+	position: relative;
+	top: -65vh;
+	left:150vh;
+	font-size: 30px;
+	color: gray;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.taste{
+	position: relative;
+	top: -20vh;
+	left:50vh;
+	font-size: 30px;
+	color: gray;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.touch{
+	position: relative;
+	top: -30vh;
+	left:140vh;
+	font-size: 30px;
+	color: gray;
+	opacity: 0;
+	transition-duration: 0.5s;
+}

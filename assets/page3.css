@@ -1,0 +1,159 @@
+body {
+	background: #FFEA8F;
+    animation-name: transition;
+    animation-duration: 0.5s;
+   	font-family: 'Josefin Sans', sans-serif;
+   	overflow: visible; 
+}
+
+.menu{
+	position: fixed;
+	width: 14vh;
+	margin-top: 12vh;
+}
+.homepage{
+	height: 10vh;
+	width: 10vh;
+	background:#faf8f0;
+	margin: 2vh;
+}
+.page1{
+	height: 10vh;
+	width: 10vh;
+	background:#FFF9C6;
+	margin: 2vh;
+}
+.page2{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEDB3;
+	margin: 2vh;
+}
+.page3{
+	height: 10vh;
+	width: 10vh;
+	background:#FFEA8F;
+	margin: 2vh;
+}
+.page4{
+	height: 10vh;
+	width: 10vh;
+	background:#F2DC90;
+	margin: 2vh;
+}
+.page5{
+	height: 10vh;
+	width: 10vh;
+	background:#DEB972;
+	margin: 2vh;
+}
+
+.spray{
+	align-content: center;
+	padding-left: 10vw;
+	z-index: 20;
+}
+
+.gif{
+	height: 95vh;
+	z-index: 20;
+}
+
+.lemonpart1{
+	z-index: 15;
+	position: fixed;
+	top:41vh;
+	left: 45vw;
+	height: 14vh;
+	opacity: 50%;
+}
+.lemonpart2{
+	z-index: 10;
+	position: fixed;
+	top: 31vh;
+	left: 42vw;
+	height: 36vh;
+	opacity: 50%;
+}
+.lemonpart3{
+	position: fixed;
+	top: 19vh;
+	left: 35.7vw;
+	height: 60vh;
+	opacity: 50%;
+}
+.lemonpart1:hover, .lemonpart2:hover, .lemonpart3:hover{
+	opacity: 100%;
+}
+
+.notes{
+	position: relative;
+	top: -112vh;
+	left: 9.5vw;
+	font-size: 4.5vw;
+	line-height: 6vw;
+	color: #4a320d;
+	display: inline-block;
+}
+
+.notes_des{
+	position: relative;
+	width: 75vh;
+	top: -25vh;
+	left: 53vw;	
+	font-size: 2.5vw;
+	line-height: 0vw;
+	text-align: right;
+	color: #4a320d;
+	transition:0.3s;
+}
+
+.time{
+	position: relative;
+	top: 15vh;
+	margin-left: 25vw;
+}
+.base2{
+	line-height: 3.5vw;
+	position: relative;
+	top: -1.5vw;
+}
+
+.base3{
+	position: relative;
+	top: -5vw;
+}
+
+.time{
+	font-size: 2.5vw;
+	line-height: 6vh;
+	color: #4a320d;
+	transition:0.3s;
+}
+
+.top, .heart, .base, .top2, .heart2, .base2{
+	opacity: 10%;
+	transition:0.3s;
+	z-index: 1;
+}
+.top2, .heart2, .base2{
+	display: inline-block;
+}
+.part1:hover .top2{
+	opacity: 90%;
+}
+.part2:hover .heart2{
+	opacity: 90%;
+}
+.part3:hover .base2{
+	opacity: 90%;
+}
+
+@keyframes transition {
+  0% {
+      opacity: 0;
+    }
+  100% {
+      opacity: 1;
+  }
+}
